@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="xbew4r0a.zyi~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoManager.Data\CryptoManager.Data.csproj" />
+    <ProjectReference Include="..\CryptoManager.Exchanges\CryptoManager.Exchanges.csproj" />
+    <ProjectReference Include="..\CryptoManager.Signals\CryptoManager.Signals.csproj" />
+    <ProjectReference Include="..\CryptoManager.Trading\CryptoManager.Trading.csproj" />
+  </ItemGroup>
+
+</Project>

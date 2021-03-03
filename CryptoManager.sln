@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager", "CryptoManager\CryptoManager.csproj", "{FDBEBB18-3B68-4313-BD9F-4309EA3838A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Exchanges", "CryptoManager.Exchanges\CryptoManager.Exchanges.csproj", "{03FC77B8-0E4D-4686-837B-68E76AD5B4AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Trading", "CryptoManager.Trading\CryptoManager.Trading.csproj", "{B95D364B-55A6-4559-BF0A-DE6EB2434C2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Exchanges.Abstractions", "CryptoManager.Exchanges.Abstractions\CryptoManager.Exchanges.Abstractions.csproj", "{96952FEC-8F31-45D7-AF47-14E044E3E181}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Trading.Abstractions", "CryptoManager.Trading.Abstractions\CryptoManager.Trading.Abstractions.csproj", "{85D3635A-87DC-41BE-859B-28F65523FE1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Signals", "CryptoManager.Signals\CryptoManager.Signals.csproj", "{5ECDA211-0161-4EB7-8CA8-52C8E20BD92C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Signals.Abstractions", "CyrptoManager.Signals.Abstractions\CryptoManager.Signals.Abstractions.csproj", "{838F21B6-7058-4FB1-96E2-B82949862C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.CLI", "CryptoManager.CLI\CryptoManager.CLI.csproj", "{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.Data", "CryptoManager.Data\CryptoManager.Data.csproj", "{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.Data.Abstractions", "CryptoManager.Data.Abstractions\CryptoManager.Data.Abstractions.csproj", "{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.Web", "CryptoManager.Web\CryptoManager.Web.csproj", "{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBEBB18-3B68-4313-BD9F-4309EA3838A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBEBB18-3B68-4313-BD9F-4309EA3838A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBEBB18-3B68-4313-BD9F-4309EA3838A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBEBB18-3B68-4313-BD9F-4309EA3838A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FC77B8-0E4D-4686-837B-68E76AD5B4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FC77B8-0E4D-4686-837B-68E76AD5B4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FC77B8-0E4D-4686-837B-68E76AD5B4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FC77B8-0E4D-4686-837B-68E76AD5B4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95D364B-55A6-4559-BF0A-DE6EB2434C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95D364B-55A6-4559-BF0A-DE6EB2434C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95D364B-55A6-4559-BF0A-DE6EB2434C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95D364B-55A6-4559-BF0A-DE6EB2434C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96952FEC-8F31-45D7-AF47-14E044E3E181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96952FEC-8F31-45D7-AF47-14E044E3E181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96952FEC-8F31-45D7-AF47-14E044E3E181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96952FEC-8F31-45D7-AF47-14E044E3E181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D3635A-87DC-41BE-859B-28F65523FE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D3635A-87DC-41BE-859B-28F65523FE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D3635A-87DC-41BE-859B-28F65523FE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D3635A-87DC-41BE-859B-28F65523FE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECDA211-0161-4EB7-8CA8-52C8E20BD92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECDA211-0161-4EB7-8CA8-52C8E20BD92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECDA211-0161-4EB7-8CA8-52C8E20BD92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECDA211-0161-4EB7-8CA8-52C8E20BD92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838F21B6-7058-4FB1-96E2-B82949862C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838F21B6-7058-4FB1-96E2-B82949862C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838F21B6-7058-4FB1-96E2-B82949862C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838F21B6-7058-4FB1-96E2-B82949862C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5227A3B5-5373-4CE4-AD07-76BFFEF00186}
+	EndGlobalSection
+EndGlobal
