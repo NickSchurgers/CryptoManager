@@ -1,1 +1,2 @@
 # CryptoManager
+Manages crypto
