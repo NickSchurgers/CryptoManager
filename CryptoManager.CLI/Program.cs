@@ -1,12 +1,12 @@
-﻿using CryptoManager.Exchanges.KuCoin;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.IO;
-using System.Threading.Tasks;
-
-namespace CryptoManager.CLI
+﻿namespace CryptoManager.CLI
 {
+    using System;
+    using System.IO;
+    using System.Threading.Tasks;
+    using CryptoManager.Exchanges.KuCoin;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+
     class Program
     {
         static async Task Main(string[] args)
@@ -24,7 +24,6 @@ namespace CryptoManager.CLI
 
             // TODO use command line args. services.GetService<IConfigurationRoot>() should give access to the arguments.
             var kucoinProvider = serviceProvider.GetService<KuCoinProvider>();
-            Console.WriteLine((await kucoinProvider.GetDefaultPortfolioAsync()).Balance);
         }
     }
 }

@@ -1,10 +1,15 @@
-﻿using CryptoManager.Exchanges.Models;
-using System.Threading.Tasks;
-
-namespace CryptoManager.Exchanges.KuCoin
+﻿namespace CryptoManager.Exchanges
 {
-    public interface IExchangeProvider
+    using System;
+    using CryptoExchange.Net.ExchangeInterfaces;
+    using CryptoExchange.Net.Interfaces;
+
+    public interface IExchangeProvider<TExchangeClient, TSocketClient>
+        where TExchangeClient : IExchangeClient, IDisposable, new()
+        where TSocketClient : ISocketClient
     {
-        public Task<Portfolio> GetDefaultPortfolioAsync();
+        TExchangeClient Client { get; }
+
+        TSocketClient SocketClient { get; }
     }
 }

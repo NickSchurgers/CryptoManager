@@ -1,25 +1,18 @@
-﻿using CryptoManager.Exchanges.Models;
-using Kucoin.Net;
-using Kucoin.Net.Objects;
-using Microsoft.Extensions.Options;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace CryptoManager.Exchanges.KuCoin
+﻿namespace CryptoManager.Exchanges.KuCoin
 {
-    public class KuCoinProvider : ExchangeProvider<KucoinClient, KucoinClientOptions>, IExchangeProvider
+    using Kucoin.Net;
+    using Kucoin.Net.Objects;
+    using Microsoft.Extensions.Options;
+
+    public class KuCoinProvider : ExchangeProvider<KucoinClient, KucoinSocketClient, KucoinClientOptions>
     {
-        public KuCoinProvider(IOptions<KucoinClientOptions> options) : base(options)
+        /// <summary>
+        /// Initializes a new instance of the <see cref="KuCoinProvider"/> class.
+        /// </summary>
+        /// <param name="options">Options object.</param>
+        public KuCoinProvider(IOptions<KucoinClientOptions> options)
+            : base(options)
         {
-        }
-
-        public async Task<Portfolio> GetDefaultPortfolioAsync()
-        {
-            var data = await executeTask(x => x.GetAccountsAsync());
-
-            // TODO figure out how the fuck to get the value of each currency.
-            var assets = data.Data.Select(x => new Asset(x.Currency, x.Balance, 1));
-            return new Portfolio("Default", assets);
         }
     }
 }
