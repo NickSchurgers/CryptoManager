@@ -3,14 +3,16 @@ using System;
 using CryptoManager.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CryptoManager.Data.Migrations
 {
     [DbContext(typeof(CryptoManagerDBContext))]
-    partial class CryptoManagerDBContextModelSnapshot : ModelSnapshot
+    [Migration("20210304191020_AddStrategyToPortfolios")]
+    partial class AddStrategyToPortfolios
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

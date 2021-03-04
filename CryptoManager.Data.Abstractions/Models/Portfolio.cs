@@ -1,6 +1,5 @@
 ﻿namespace CryptoManager.Data.Models
 {
-    using CryptoManager.Trading;
     using System;
     using System.Collections.Generic;
 
@@ -8,11 +7,13 @@
     {
         public Guid Id { get; set; }
 
+        public ICollection<PortfolioAsset> PortfolioAssets { get; set; }
+
         public string Name { get; set; }
 
-        public TradingStrategy Strategy { get; set; }
+        public Guid StrategyId { get; set; }
 
-        public ICollection<PortfolioAsset> PortfolioAssets { get; set; }
+        public Strategy Strategy { get; set; }
 
         public Guid AccountId { get; set; }
 
