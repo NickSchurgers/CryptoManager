@@ -17,13 +17,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Signals", "Cr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Signals.Abstractions", "CyrptoManager.Signals.Abstractions\CryptoManager.Signals.Abstractions.csproj", "{838F21B6-7058-4FB1-96E2-B82949862C13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.CLI", "CryptoManager.CLI\CryptoManager.CLI.csproj", "{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.CLI", "CryptoManager.CLI\CryptoManager.CLI.csproj", "{CA83CF40-80B9-4FDE-88E9-1D506DD8B80C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.Data", "CryptoManager.Data\CryptoManager.Data.csproj", "{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Data", "CryptoManager.Data\CryptoManager.Data.csproj", "{541ACD86-816D-45EB-ADBD-99BC2D8A6B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.Data.Abstractions", "CryptoManager.Data.Abstractions\CryptoManager.Data.Abstractions.csproj", "{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Data.Abstractions", "CryptoManager.Data.Abstractions\CryptoManager.Data.Abstractions.csproj", "{611682CD-E5BA-4DAA-9BC6-920250A4BCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoManager.Web", "CryptoManager.Web\CryptoManager.Web.csproj", "{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoManager.Web", "CryptoManager.Web\CryptoManager.Web.csproj", "{BBB3B92B-B3E1-4721-BF7A-B7EC62ED1FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6EBA641-AF11-40DD-B296-0FD11AADBF0B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
