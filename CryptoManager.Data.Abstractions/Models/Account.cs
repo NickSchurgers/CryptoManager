@@ -8,5 +8,9 @@
         public Guid Id { get; set; }
 
         public ICollection<Portfolio> Portfolios { get; set; }
+
+        public Guid ExchangeId { get; set; }
+
+        public Exchange Exchange { get; set; }
     }
 }

@@ -6,6 +6,7 @@
         HODL,
         SCALP,
         ACCUMULATE,
-        BALANCE
+        BALANCE,
+        CUSTOM
     }
 }

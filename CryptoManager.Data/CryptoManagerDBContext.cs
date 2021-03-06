@@ -14,6 +14,8 @@
 
         public DbSet<Account> Accounts { get; set; }
 
+        public DbSet<Exchange> Exchanges { get; set; }
+
         public CryptoManagerDBContext(DbContextOptions<CryptoManagerDBContext> options)
             : base(options)
         {
